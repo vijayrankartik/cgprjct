@@ -1,0 +1,24 @@
+<html>
+	<head>
+        <title>Football Crossing Game</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+<body>
+	<script src="./script.js"></script>
+    <div id="guide">
+    	<h2 style="color:wheat ;">Game Instructions</h2>
+        <ul>
+            <li>You have to dodge the ball from the existing player(s) and make it to the goal post!</li>
+            <li>Keep the left mouse key pressed to move the ball</li>
+            <li>Click restart if you fail</li>
+        </ul>
+        <div>
+            <button id="button" onclick="init(); game.env.running=true; render();">
+                <i class="glyphicon glyphicon-refresh"></i>Restart
+            </button>
+        </div>
+    </div>
+</body>
+</html>

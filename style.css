@@ -1,0 +1,33 @@
+body{
+	color:#f2f2f2;
+	padding: 0;
+	margin: 0;
+	background-image: url('./resources/back.jpg');
+	background-size: cover;
+}
+canvas{
+	margin-left: 27%;
+	margin-top: 30px;
+	border: 18px dashed greenyellow;
+}
+#guide{
+	display: inline;
+	font-family: Courier;
+	color:whitesmoke;
+}
+#button{
+	border:5px double black;
+	margin-left: 70%;
+	border-radius:100%;
+	font-size:20px;
+	color:black;
+}
+#button:active{
+	box-shadow:2px 2px 3px #000;
+}
+canvas{
+	background:url('./resources/grass.jpg');
+}
+h2, ul{
+	margin-left: 7%;
+}
